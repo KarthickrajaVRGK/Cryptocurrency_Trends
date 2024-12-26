@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+.chart {
+  font-family: Arial, sans-serif;
+  display: inline-block;
+  height: auto;
+  position: absolute;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgb(255, 255, 255);
+}
+.chart #chart-container {
+  height: 100%;
+  width: 100%;
+  max-width: 1000px;
+  text-align: center;
+  background: #1f2434;
+  border: 2px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.rate-show {
+  position: relative;
+  display: flex;
+}
+.rate-show .widget-wrapper {
+  box-shadow: 0 0 8px rgb(255, 255, 255);
+  border-radius: 8px;
+  display: block;
+  margin: 20px;
+}
+.rate-show .widget-wrapper .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent; /* Keeps the widget visible */
+  z-index: 10; /* Ensures it covers the widget */
+}
+
+.currency-convertor {
+  display: inline-block;
+  box-shadow: 0 0 8px rgb(255, 255, 255);
+  margin: 20px;
+  background-color: #1f2434;
+  color: white;
+}
+.currency-convertor #crypto-converter {
+  width: 250px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  border: 5px;
+  padding: 20px;
+  border-radius: 8px;
+  height: auto;
+}
+.currency-convertor #crypto-converter label, .currency-convertor #crypto-converter select, .currency-convertor #crypto-converter input {
+  display: inline-block;
+  margin: 10px 0;
+}
+.currency-convertor #crypto-converter button {
+  padding: 10px;
+  background-color: #1f2434;
+  color: white;
+  box-shadow: 0 0 8px rgb(255, 255, 255);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.currency-convertor #crypto-converter button:hover {
+  box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+.currency-convertor #convertedAmount {
+  font-weight: bold;
+  color: white;
+}
+
+span h2 {
+  font-family: "Poppind", sans-serif;
+  color: #109eef;
+}
+span p {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  font-size: 20px;
+}
+span button {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #1f2434;
+  box-shadow: 0 0 8px rgb(255, 255, 255);
+  padding-left: 30px;
+  padding-right: 30px;
+  color: white;
+}
+span button:hover {
+  box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+
+body {
+  margin: 20px;
+  padding: 0;
+  color: white;
+  background-color: #1f2434;
+}/*# sourceMappingURL=coin.css.map */

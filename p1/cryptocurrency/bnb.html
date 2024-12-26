@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../scss/coin.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    
+    <div class="rate-show">
+        <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script>
+        <div class="widget-wrapper">
+            <div class="overlay"></div> <!-- This element blocks interaction -->
+            <div class="livecoinwatch-widget-6" lcw-coin="BNB" lcw-base="USD" lcw-period="d" lcw-color-tx="#ffffff" lcw-color-bg="#1f2434" lcw-border-w="0" >
+            </div>
+        </div>
+    </div>
+   <br>
+   <div class="currency-convertor">
+    <div id="crypto-converter">
+        <h2>Crypto Converter</h2>
+        <label for="cryptoSelect">From:</label>
+        <select id="cryptoSelect">
+            <option value="binancecoin">Binance (BNB)</option>
+            <option value="dogecoin">Dogecoin (DOGE)</option>
+            <option value="solana">Solana (SOL)</option>
+            <option value="bitcoin">Bitcoin (BTC)</option>
+            <option value="ethereum">Ethereum (ETH)</option>
+            <option value="ripple">Ripple (XRP)</option>
+            <option value="polkadot">Polkadot (DOT)</option>
+        </select><br>
+
+        <label for="fiatSelect">To:</label>
+        <select id="fiatSelect">
+            <option value="usd">USD</option>
+            <option value="eur">EUR</option>
+            <option value="inr">INR</option>
+        </select><br>
+
+        <label for="amountInput">Amount:</label>
+        <input type="number" id="amountInput" placeholder="Enter amount" />
+
+        <button id="convertButton">Convert</button>
+
+        <h3>Converted Amount:</h3>
+        <p id="convertedAmount">-</p>
+    </div>
+    <script src="../cryptocurrency/javascript/bnb.js">
+        
+    </script>
+</div>
+
+
+
+    <div class="chart">
+        <div id="chart-container">
+            <h2>Binance Coin (BNB) Price Chart (Last 7 Days)</h2>
+            <canvas id="bnbChart"></canvas>
+        </div>
+        <script src="../cryptocurrency/javascript/bnb.js">
+            // Binance Coin API URL
+            
+        </script>
+    </div>
+    
+    
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<span>
+    <h2>What is Binance?</h2><p>
+        Binance Coin, launched by the Binance Exchange in 2017, is the utility token for the platform. Initially built on Ethereum, it now runs on Binance’s BNB Chain. BNB is used to pay transaction fees, participate in token sales, and more within the Binance ecosystem.</p>
+    <br><h2>Where to buy Binance ?</h2>
+    <p>You can buy Binance Coin on the Binance Exchange, its native platform, or other exchanges like Coinbase and KuCoin. Payments can be made through credit/debit cards, bank transfers, or local payment methods. For safety, transfer your BNB to a secure wallet like Trust Wallet or MetaMask. </p>
+    
+    
+    <br>
+    
+        <h2>How to buy Binance ?</h2>
+    <p>To buy Binance Coin, create an account on exchanges like Binance, Coinbase, or KuCoin. Complete KYC verification, deposit funds via your preferred payment method, and purchase BNB. Once bought, secure it in a wallet like Trust Wallet or MetaMask.</p>
+    <br><br><br>
+    <center><a href="../Crypto.html"><button>Back</button></a></center>
+    
+    
+    </span>
+</body>
+</html>

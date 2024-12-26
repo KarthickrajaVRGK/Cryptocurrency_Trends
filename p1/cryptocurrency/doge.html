@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../scss/coin.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    
+    <div class="rate-show">
+        <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script>
+        <div class="widget-wrapper">
+            <div class="overlay"></div> <!-- This element blocks interaction -->
+            <div class="livecoinwatch-widget-6" lcw-coin="DOGE" lcw-base="USD" lcw-period="d" lcw-color-tx="#ffffff" lcw-color-bg="#1f2434" lcw-border-w="0" >
+            </div>
+        </div>
+    </div>
+   <br>
+    <div class="currency-convertor">
+        <div id="crypto-converter">
+            <h2>Crypto Converter</h2>
+            <label for="cryptoSelect">From:</label>
+            <select id="cryptoSelect">
+                <option value="dogecoin">Dogecoin (DOGE)</option>
+                <option value="solana">Solana (SOL)</option>
+                <option value="bitcoin">Bitcoin (BTC)</option>
+                <option value="ethereum">Ethereum (ETH)</option>
+                <option value="dogecoin">Dogecoin (DOGE)</option>
+                <option value="ripple">Ripple (XRP)</option>
+                <option value="polkadot">Polkadot (DOT)</option>
+            </select><br>
+        
+            <label for="fiatSelect">To:</label>
+            <select id="fiatSelect">
+                <option value="usd">USD</option>
+                <option value="eur">EUR</option>
+                <option value="inr">INR</option>
+            </select><br>
+        
+            <label for="amountInput">Amount:</label>
+            <input type="number" id="amountInput" placeholder="Enter amount" />
+        
+            <button id="convertButton">Convert</button>
+        
+            <h3>Converted Amount:</h3>
+            <p id="convertedAmount">-</p>
+        </div>
+        <script src="../cryptocurrency/javascript/doge.js">
+            
+        
+        </script>
+
+
+    </div>
+
+
+
+    <div class="chart">
+        <div id="chart-container">
+            <h2>Dogecoin (DOGE) Price Chart (Last 7 Days)</h2>
+            <canvas id="dogeChart"></canvas>
+        </div>
+        <script src="../cryptocurrency/javascript/doge.js">
+            // Dogecoin API URL
+            
+        </script>
+    </div>
+    
+    
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<span>
+    <h2>What is Dogecoin ?</h2><p>
+        Dogecoin, started as a meme in 2013 by Billy Markus and Jackson Palmer, has grown into a popular cryptocurrency. With its friendly Shiba Inu mascot, it’s used for tipping, microtransactions, and online communities. Unlike Bitcoin, it has no maximum supply.</p>
+    <br><h2>Where to buy Dogecoin ?</h2>
+    <p>You can buy Dogecoin on popular exchanges like Binance, Kraken, and Coinbase. Payment methods include bank transfers, cards, and e-wallets. In India, WazirX supports DOGE trading. After buying, secure your Dogecoin in a wallet like Trust Wallet or Exodus Wallet.</p>
+    <br>
+    
+        <h2>How to buy Dogecoin ?</h2>
+    <p>To buy Dogecoin, create an account on platforms like Binance, Coinbase, or Kraken. Complete identity verification, deposit funds, and purchase DOGE. After buying, store it in a trusted wallet like Trust Wallet or Exodus Wallet.
+    
+    </p>
+    <br><br><br>
+    <center><a href="../Crypto.html"><button>Back</button></a></center>
+    
+    
+    </span>
+</body>
+</html>

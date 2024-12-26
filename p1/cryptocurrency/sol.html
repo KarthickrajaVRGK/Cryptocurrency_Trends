@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../scss/coin.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    
+    <div class="rate-show">
+        <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script>
+        <div class="widget-wrapper">
+            <div class="overlay"></div> <!-- This element blocks interaction -->
+            <div class="livecoinwatch-widget-6" lcw-coin="SOL" lcw-base="USD" lcw-period="d" lcw-color-tx="#ffffff" lcw-color-bg="#1f2434" lcw-border-w="0" >
+            </div>
+        </div>
+    </div>
+   <br>
+    <div class="currency-convertor">
+        <div id="crypto-converter">
+            <h2>Crypto Converter</h2>
+            <label for="cryptoSelect">From:</label>
+            <select id="cryptoSelect">
+                <option value="solana">Solana (SOL)</option>
+
+                <option value="bitcoin">Bitcoin (BTC)</option>
+                <option value="ethereum">Ethereum (ETH)</option>
+                <option value="dogecoin">Dogecoin (DOGE)</option>
+                <option value="ripple">Ripple (XRP)</option>
+                <option value="polkadot">Polkadot (DOT)</option>
+            </select><br>
+        
+            <label for="fiatSelect">To:</label>
+            <select id="fiatSelect">
+                <option value="usd">USD</option>
+                <option value="eur">EUR</option>
+                <option value="inr">INR</option>
+            </select><br>
+        
+            <label for="amountInput">Amount:</label>
+            <input type="number" id="amountInput" placeholder="Enter amount" />
+        
+            <button id="convertButton">Convert</button>
+        
+            <h3>Converted Amount:</h3>
+            <p id="convertedAmount">-</p>
+        </div>
+        <script src="../cryptocurrency/javascript/sol.js">
+      
+        
+        
+        </script>
+
+
+    </div>
+
+
+
+    <div class="chart">
+        <div id="chart-container">
+            <h2>Solana (SOL) Price Chart (Last 7 Days)</h2>
+            <canvas id="solChart"></canvas>
+        </div>
+        <script src="../cryptocurrency/javascript/sol.js">
+      
+        </script>
+    </div>
+    
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<span>
+    <h2>What is Solana ?</h2><p>
+        Solana is a high-performance blockchain launched in 2020 by Anatoly Yakovenko. Known for its lightning-fast transaction speeds and low fees, it powers decentralized apps and NFTs. SOL, its native token, supports transactions and staking within the ecosystem.</p>
+    <br><h2>Where to buy Solana ?</h2>
+    <p>Solana is available on platforms like Binance, Kraken, and Coinbase. Payment options include cards, bank transfers, or regional payment methods. Platforms like WazirX also support SOL. Once purchased, store your SOL in a wallet like Phantom or Ledger Nano S for added protection.
+
+
+
+    </p>
+    <br>
+    
+        <h2>How to buy Solana ?</h2>
+    <p>To buy Solana, sign up on exchanges like Binance, Coinbase, or Kraken. Complete KYC, add funds via bank transfers or cards, and purchase SOL. Transfer your SOL to a secure wallet like Phantom or Ledger Nano S.
+
+
+    </p>
+    <br><br><br>
+    <center><a href="../Crypto.html"><button>Back</button></a></center>
+    
+    
+    </span>
+</body>
+</html>

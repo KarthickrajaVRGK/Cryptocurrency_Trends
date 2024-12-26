@@ -1,0 +1,46 @@
+@import 'color.scss';
+.currency-convertor{
+    display: inline-block;
+    box-shadow: 0 0 8px rgb(255, 255, 255);
+    margin: 20px;
+    background-color:$ccbobg ;
+    color: $ccboc;
+
+    #crypto-converter {
+        width: 250px;
+        
+        font-family: Arial, sans-serif;
+        text-align: center;
+        border: 5px ;
+        padding: 20px;
+        border-radius: 8px;
+        height: auto;
+
+        label, select, input {
+            display: inline-block;
+            margin: 10px 0;
+
+            
+            
+        }
+        button {
+            padding: 10px;
+            background-color: $ccbobg;
+            color: $ccboc;
+            box-shadow:  0 0 8px $bxs;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+
+           
+            
+        }
+        button:hover {
+            box-shadow:  0 0 20px $bxs;
+        }
+    }
+    #convertedAmount {
+        font-weight: bold;
+        color:$ccboc;
+    }
+}

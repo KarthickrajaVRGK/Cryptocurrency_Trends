@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #1f2434;
+    margin-left: 25px;
+    color: white;
+    font-family: "Poppind",sans-serif;
+  }
+  
+  .bit {
+    display: inline-block;
+    background-color: #1f2434; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 0 8px rgb(255, 255, 255); 
+    height:200px;
+    margin: 25px;
+    width: 250px;
+    transition-duration: 0.25s;
+  }
+
+  .bit a {
+    text-decoration: none;
+    color: inherit;
+
+  }
+  .bit img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+    height: 150px;
+    
+  }
+  .bit h1 {
+    text-align: center;
+    margin-top: 0%;
+  } 
+  .bit:hover{
+    box-shadow: 0 0 30px rgb(255, 255, 255); 
+    cursor: pointer;
+  }

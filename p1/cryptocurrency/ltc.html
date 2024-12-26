@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../scss/coin.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    
+    <div class="rate-show">
+        <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script>
+        <div class="widget-wrapper">
+            <div class="overlay"></div> <!-- This element blocks interaction -->
+            <div class="livecoinwatch-widget-6" lcw-coin="LTC" lcw-base="USD" lcw-period="d" lcw-color-tx="#ffffff" lcw-color-bg="#1f2434" lcw-border-w="0" >
+            </div>
+        </div>
+    </div>
+   <br>
+   <div class="currency-convertor">
+    <div id="crypto-converter">
+        <h2>Crypto Converter</h2>
+        <label for="cryptoSelect">From:</label>
+        <select id="cryptoSelect">
+            <option value="litecoin">Litecoin (LTC)</option>
+            <option value="binancecoin">Binance (BNB)</option>
+            <option value="dogecoin">Dogecoin (DOGE)</option>
+            <option value="solana">Solana (SOL)</option>
+            <option value="bitcoin">Bitcoin (BTC)</option>
+            <option value="ethereum">Ethereum (ETH)</option>
+            <option value="ripple">Ripple (XRP)</option>
+            <option value="polkadot">Polkadot (DOT)</option>
+        </select><br>
+
+        <label for="fiatSelect">To:</label>
+        <select id="fiatSelect">
+            <option value="usd">USD</option>
+            <option value="eur">EUR</option>
+            <option value="inr">INR</option>
+        </select><br>
+
+        <label for="amountInput">Amount:</label>
+        <input type="number" id="amountInput" placeholder="Enter amount" />
+
+        <button id="convertButton">Convert</button>
+
+        <h3>Converted Amount:</h3>
+        <p id="convertedAmount">-</p>
+    </div>
+    <script src="../cryptocurrency/javascript/ltc.js">
+      
+    </script>
+</div>
+
+
+
+<div class="chart">
+    <div id="chart-container">
+        <h2>Litecoin (LTC) Price Chart (Last 7 Days)</h2>
+        <canvas id="ltcChart"></canvas>
+    </div>
+    <script src="../cryptocurrency/javascript/ltc.js">
+        
+    </script>
+</div>
+
+    
+    
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<span>
+    <h2>What is Litecoin ?</h2><p>
+        Litecoin, created in 2011 by Charlie Lee, is a cryptocurrency built for fast and low-cost payments. Known as "digital silver" to Bitcoin's gold, it processes transactions faster while using a similar decentralized blockchain model. With a limited supply of 84 million coins, Litecoin is a reliable alternative for everyday use.</p>
+    <br><h2>Where to buy Litecoin ?</h2>
+    <p>Litecoin is available on major exchanges like Binance, Kraken, and Coinbase. Payment methods include bank transfers, cards, or e-wallets. In India, you can use platforms like WazirX or ZebPay. After buying, move your LTC to a trusted wallet such as Exodus or Ledger Nano X for added security.
+
+    </p>
+    <br>
+    
+        <h2>How to buy Litecoin ?</h2>
+    <p>To buy Litecoin, register on an exchange like Coinbase, Binance, or Kraken. Verify your identity, deposit funds using bank transfers, cards, or other payment methods, and purchase LTC. Move your Litecoin to a reliable wallet like Exodus or Ledger Nano X for added security.
+    
+    </p>
+    <br><br><br>
+    <center><a href="../Crypto.html"><button>Back</button></a></center>
+    
+    
+    </span>
+</body>
+</html>

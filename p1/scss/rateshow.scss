@@ -1,0 +1,25 @@
+@import 'color.scss';
+.rate-show{
+                position: relative;
+                display: flex;
+
+                .widget-wrapper{
+                    box-shadow: 0 0 8px $bxs;
+                    border-radius: 8px;
+                    display: block;
+                    margin: 20px;
+
+                    .overlay {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        background: transparent; /* Keeps the widget visible */
+                        z-index: 10; /* Ensures it covers the widget */
+                    }
+            
+
+                   
+                }
+            }

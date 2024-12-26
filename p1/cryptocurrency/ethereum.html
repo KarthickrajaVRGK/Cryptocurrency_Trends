@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../scss/coin.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    
+    <div class="rate-show">
+        <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script>
+        <div class="widget-wrapper">
+            <div class="overlay"></div> <!-- This element blocks interaction -->
+            <div class="livecoinwatch-widget-6" lcw-coin="ETH" lcw-base="USD" lcw-period="d" lcw-color-tx="#ffffff" lcw-color-bg="#1f2434" lcw-border-w="0" >
+            </div>
+        </div>
+    </div>
+   <br>
+    <div class="currency-convertor">
+        <div id="crypto-converter">
+            <h2>Crypto Converter</h2>
+            <label for="cryptoSelect">From:</label>
+            <select id="cryptoSelect">
+                
+                <option value="ethereum">Ethereum (ETH)</option>
+                <option value="bitcoin">Bitcoin (BTC)</option>
+                <option value="dogecoin">Dogecoin (DOGE)</option>
+            </select><br>
+        
+            <label for="fiatSelect">To:</label>
+            <select id="fiatSelect">
+                <option value="usd">USD</option>
+                <option value="eur">EUR</option>
+                <option value="inr">INR</option>
+            </select><br>
+        
+            <label for="amountInput">Amount:</label>
+            <input type="number" id="amountInput" placeholder="Enter amount" />
+        
+            <button id="convertButton">Convert</button>
+        
+            <h3>Converted Amount:</h3>
+            <p id="convertedAmount">-</p>
+        </div>
+        <script src="../cryptocurrency/javascript/ethereum.js">
+            
+        
+        
+        </script>
+
+
+    </div>
+
+
+
+<div class="chart">
+    <div id="chart-container">
+        <h2>Ethereum Price Chart (Last 7 Days)</h2>
+        <canvas id="ethChart"></canvas>
+    </div>
+
+    <script src="../cryptocurrency/javascript/ethereum.js">
+        
+    </script>
+    
+
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<span>
+    <h2>What is Ethereum ?</h2><p>
+        Ethereum is a decentralized platform launched in 2015 by Vitalik Buterin. Unlike Bitcoin, it’s not just digital money but also supports smart contracts—programs that run on its blockchain. ETH, its native coin, powers transactions and applications, making it a key player in decentralized finance (DeFi).</p>
+    <br><h2>Where to buy Ethereum ?</h2>
+    <p>You can buy Ethereum on popular cryptocurrency exchanges like Coinbase, Binance, or Kraken, using bank transfers, credit/debit cards, or other payment methods. For region-specific options, platforms like WazirX or CoinSwitch Kuber are also reliable. Once purchased, store your ETH in a secure wallet like MetaMask or Ledger to protect your funds.</p>
+    <br>
+    
+        <h2>How to buy Ethereum ?</h2>
+    <p>To buy Ethereum, sign up on a cryptocurrency exchange like Coinbase, Binance, or Kraken. Complete KYC verification, deposit funds via bank transfer, card, or other payment methods, and purchase ETH. After buying, transfer it to a secure wallet like MetaMask or Ledger for safekeeping.
+    
+    </p>
+    <br><br><br>
+    <center><a href="../Crypto.html"><button>Back</button></a></center>
+    
+    
+    </span>
+</body>
+</html>

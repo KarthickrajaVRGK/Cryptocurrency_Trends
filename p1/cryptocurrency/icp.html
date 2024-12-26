@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../scss/coin.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    
+    <div class="rate-show">
+        <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script>
+        <div class="widget-wrapper">
+            <div class="overlay"></div> <!-- This element blocks interaction -->
+            <div class="livecoinwatch-widget-6" lcw-coin="ICP" lcw-base="USD" lcw-period="d" lcw-color-tx="#ffffff" lcw-color-bg="#1f2434" lcw-border-w="0" >
+            </div>
+        </div>
+    </div>
+   <br>
+   <div class="currency-convertor">
+    <div id="crypto-converter">
+        <h2>Crypto Converter</h2>
+        <label for="cryptoSelect">From:</label>
+        <select id="cryptoSelect">
+            <option value="internet-computer">Internet Computer (ICP)</option>
+            <option value="avalanche-2">Avalanche (AVAX)</option>
+            <option value="tron">Tron (TRX)</option>
+            <option value="uniswap">Uniswap (UNI)</option>
+            <option value="litecoin">Litecoin (LTC)</option>
+            <option value="binancecoin">Binance (BNB)</option>
+            <option value="dogecoin">Dogecoin (DOGE)</option>
+            <option value="solana">Solana (SOL)</option>
+            <option value="bitcoin">Bitcoin (BTC)</option>
+            <option value="ethereum">Ethereum (ETH)</option>
+            <option value="ripple">Ripple (XRP)</option>
+            <option value="polkadot">Polkadot (DOT)</option>
+        </select><br>
+
+        <label for="fiatSelect">To:</label>
+        <select id="fiatSelect">
+            <option value="usd">USD</option>
+            <option value="eur">EUR</option>
+            <option value="inr">INR</option>
+        </select><br>
+
+        <label for="amountInput">Amount:</label>
+        <input type="number" id="amountInput" placeholder="Enter amount" />
+
+        <button id="convertButton">Convert</button>
+
+        <h3>Converted Amount:</h3>
+        <p id="convertedAmount">-</p>
+    </div>
+    <script src="../cryptocurrency/javascript/icp.js">
+        
+    </script>
+</div>
+<div class="chart">
+    <div id="chart-container">
+        <h2>Internet Computer (ICP) Price Chart (Last 7 Days)</h2>
+        <canvas id="icpChart"></canvas>
+    </div>
+    <script src="../cryptocurrency/javascript/icp.js">
+       
+    </script>
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<span>
+    <h2>What is Internet Computer ?</h2><p>
+        Internet Computer, introduced by Dfinity in 2021, aims to decentralize the internet by running apps directly on the blockchain. ICP powers the network, enabling developers to build scalable, secure, and censorship-resistant applications.</p>
+    <br><h2>Where to buy Internet Computer ?</h2>
+    <p>Internet Computer can be purchased on exchanges like Binance, Coinbase, and Kraken. You can pay using bank transfers, cards, or other payment methods. For added security, store your ICP tokens in wallets like NNS Wallet or Ledger Nano S.</p>
+    <br>
+    
+        <h2>How to buy Internet Computer ?</h2>
+    <p>To buy Internet Computer, sign up on platforms like Binance, Coinbase, or Kraken. Complete KYC, deposit funds, and purchase ICP. Store your ICP in a secure wallet like NNS Wallet or Ledger Nano X for safekeeping.
+
+
+    
+    </p>
+    <br><br><br>
+    <center><a href="../Crypto.html"><button>Back</button></a></center>
+    
+    
+    </span>
+</body>
+</html>

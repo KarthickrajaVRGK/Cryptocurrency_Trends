@@ -1,0 +1,24 @@
+@import 'color.scss';
+span{
+    h2{
+        font-family: "Poppind",sans-serif;
+        color:$txh2 ;
+    }
+    p{
+        font-family:"Roboto",sans-serif;
+        line-height: 1.6;
+        font-size: 20px;
+    }
+    button{
+        padding: 20px;
+        border-radius: 8px;
+        background-color: $txbobg;
+        box-shadow: 0 0 8px $bxs;
+        padding-left: 30px;
+        padding-right: 30px;
+        color: $txboc;
+    }
+    button:hover{
+        box-shadow: 0 0 20px $bxs;
+    }
+}
